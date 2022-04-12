@@ -15,7 +15,7 @@ import java.nio.file.Paths;
 /**
  * Some code that uses JavaParser.
  */
-public class LogicPositivizer1 {
+public class LogicPositivizer {
     public static void main(String[] args) {
         // JavaParser has a minimal logging class that normally logs nothing.
         // Let's ask it to write to standard out:
@@ -24,7 +24,7 @@ public class LogicPositivizer1 {
         // SourceRoot is a tool that read and writes Java files from packages on a certain root directory.
         // In this case the root directory is found by taking the root from the current Maven module,
         // with src/main/resources appended.
-        SourceRoot sourceRoot = new SourceRoot(CodeGenerationUtils.mavenModuleRoot(LogicPositivizer1.class).resolve("src/main/resources"));
+        SourceRoot sourceRoot = new SourceRoot(CodeGenerationUtils.mavenModuleRoot(LogicPositivizer.class).resolve("src/main/resources"));
 
         // Our sample is in the root of this directory, so no package name.
         CompilationUnit cu = sourceRoot.parse("", "Blabla.java");
@@ -65,14 +65,6 @@ public class LogicPositivizer1 {
 
         }
 
-        for(int i=0; i > 200; i++)
-
-        {
-            System.out.println();
-
-        }
-
-
 
         Log.info("Positivizing!");
         
@@ -103,7 +95,7 @@ public class LogicPositivizer1 {
         // This saves all the files we just read to an output directory.  
         sourceRoot.saveAll(
                 // The path of the Maven module/project which contains the LogicPositivizer class.
-                CodeGenerationUtils.mavenModuleRoot(LogicPositivizer1.class)
+                CodeGenerationUtils.mavenModuleRoot(LogicPositivizer.class)
                         // appended with a path to "output"
                         .resolve(Paths.get("output")));
     }
