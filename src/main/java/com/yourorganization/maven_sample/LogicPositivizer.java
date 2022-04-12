@@ -27,23 +27,21 @@ public class LogicPositivizer {
         SourceRoot sourceRoot = new SourceRoot(CodeGenerationUtils.mavenModuleRoot(LogicPositivizer.class).resolve("src/main/resources"));
 
         // Our sample is in the root of this directory, so no package name.
-
-
-        for(int i=0; i > 200; i++)
-
-        {
-            System.out.println();
-
-        }
-
-        for(int i=0; i > 200; i++)
-
-        {
-            System.out.println();
-
-        }
-s
         CompilationUnit cu = sourceRoot.parse("", "Blabla.java");
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
 
         Log.info("Positivizing!");
         
