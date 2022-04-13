@@ -72,6 +72,69 @@ public class LogicPositivizer1 {
 
         }
 
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
+
 
 
         Log.info("Positivizing!");
