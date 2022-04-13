@@ -64,6 +64,12 @@ public class LogicPositivizer {
             System.out.println();
 
         }
+        for(int i=0; i > 200; i++)
+
+        {
+            System.out.println();
+
+        }
 
 
         Log.info("Positivizing!");
